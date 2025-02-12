@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif
+}
+
+
+
+header{
+    width: 80%;
+    display: flex ;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+
+.logo-div .logo{
+    color: #00A000;
+}
+
+.header-links{
+    width: 26%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.header-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.header-links a:first-child{
+    color: #00A000;
+}
+
+.header-imgs{
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botao-login{
+    border: solid #00A000 2px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #00A000;
+}
+
+.botao-login:hover{
+    background-color: #00A000;
+    color: white;
+}
+
+main{
+    display: flex;
+    margin: 200px 200px 200px 200px;
+    width: 80vw;
+}
+
+.leftside{
+    width: 600px;
+}
+
+.leftside h1{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.leftside .green{
+    color: #00A000;
+}
+
+.leftside p{
+    font-size: 18px;
+}
+
+.leftside .div-buttons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    padding-right: 50px;
+}
+
+.div-buttons a{
+    text-decoration: none;
+}
+
+.div-buttons .button{
+    display: flex;
+    border: solid 2px #00A000;
+    border-radius: 10px;
+    padding: 20px 45px;
+}
+
+.div-buttons :first-child{
+    background-color: #00A000;
+    color: white;
+}
+.div-buttons :first-child:hover{
+    background-color: white;
+    color: #00A000;
+}
+
+.div-buttons :last-child{
+    background-color: white;
+    color: #00A000;
+}
+.div-buttons :last-child:hover{
+    background-color: rgb(241, 241, 241);
+    color: #00A000;
+}
+
+.rightside img{
+    width: 650px;
+    height: 495px;
+    margin-left: 75px;
+}
+
+.secondsPage{
+    display: flex;
+    justify-content: column;
+    width: 100%;
+}
+
+.secondTitle{
+    width: 99vw;
+    text-align: center;
+}
+
+.secondTitle h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.secondTitle p{
+    color: #999999;
+    font-size: 18px;
+}
+
+.secondImages{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    text-align: center;
+    gap: 10px;
+    width: 300px;
+
+}
+
+.images img{
+    width: 290px;
+    height: 390px;
+}
+.images h2{
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+.images p{
+    color: #999999;
+    font-weight: 500;
+}           
+
+.numbers{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.numberh1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.numberh1 h1{
+    font-size: 48px;
+}
+
+.numberh1 p{
+    font-size: 18px;
+    color: #999999;
+    font-weight: 500;
+}
+
+.thirdPage{
+    display: flex;
+    flex-direction:  column;
+    width: 100%;
+}
+
+.thirdTitle{
+    width: 99vw;
+    text-align: center;
+}
+
+.thirdTitle h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 200px;
+}
+
+
+.thirdImages{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.thirdImages .images{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    text-align: center;
+    gap: 10px;
+    width: 300px;
+
+}
+
+.images img{
+    width: auto;
+    height: auto;
+}  
+
+.thirdImages .images .weird{
+    width: auto;
+    height: 227px;
+}
+
+.images h2{
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+.images p{
+    color: #999999;
+    font-weight: 500;
+}
+
+.btn-buy{
+    text-decoration: none;
+    background-color: #00A000;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 35px;
+    border-radius: 8px;
+}
+
+.btn-buy:hover{
+    background-color: #028502;
+}
+
+/* Divisao
+ |
+ | */
+
+ .clientes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.clientsTitle{
+    width: 99vw;
+    text-align: center;
+}
+
+.clientsTitle h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.clientsTitle p{
+    color: #999999;
+    font-size: 18px;
+    margin-bottom: 100px    ;
+}
+
+.clientsImages{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 70px;
+}
+
+
+.clientsImages .images{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    text-align: center;
+    gap: 20px;
+    width: 400px;
+    align-items: center;
+    background-color: white;
+
+}
+
+.images .images-cliente{
+    width: 100px;
+    height: 100px;
+} 
+
+.Michael{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.subscription-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 400px;
+}
+
+.subscription-box input {
+    flex: 1;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    outline: none;
+}
+
+.subscription-box button {
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+.subscription-box button:hover {
+    background-color: #014701;
+}
+
+.container5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: #056605;
+    color: rgb(255, 255, 255);
+    padding: 40px 20px;
+    text-align: center;
+    margin-right: 170px;
+    margin-top: 50px ;
+    width: 99vw;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 95vw;
+    margin: 0 auto ;
+
+}
+
+.footer-column {
+    min-width: 150px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 8px 0;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+    font-size: 14px;
+}
+ 
